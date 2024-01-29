@@ -14,5 +14,4 @@
 config.php
 /composer.lock
 /coverage
-/config.php
 /.phpunit.result.cache
