@@ -2,12 +2,7 @@
 
 namespace Produto\External;
 
-const DB_HOST = "localhost";
-const DB_NAME = "dbpostech";
-const DB_USERNAME = "root";
-const DB_PASSWORD = "";
-const DB_PORT = 3306;
-
+require "./config.php";
 require "./src/Interfaces/DbConnection/DbConnectionInterface.php";
 
 use Produto\Interfaces\DbConnection\DbConnectionInterface;
