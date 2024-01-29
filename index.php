@@ -2,7 +2,6 @@
 
 header('Content-Type: application/json; charset=utf-8');
 require "./utils/RespostasJson.php";
-require "config.php";
 require "./src/External/MySqlConnection.php";
 require "./src/Controllers/ProdutoController.php";
 
